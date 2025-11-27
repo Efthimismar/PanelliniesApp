@@ -11,7 +11,6 @@
 		29A0DE492EBFAD6700F0B073 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 29A0DE482EBFAD6700F0B073 /* FirebaseAuth */; };
 		29A0DE4B2EBFAD6700F0B073 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 29A0DE4A2EBFAD6700F0B073 /* FirebaseCore */; };
 		29A0DE4D2EBFAD6700F0B073 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 29A0DE4C2EBFAD6700F0B073 /* FirebaseFirestore */; };
-		29DC46402ED9154C009D9D5F /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 29DC463F2ED91541009D9D5F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		29938FCE2EBE2FC5005D029A /* PanelliniesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanelliniesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29938FD82EBE2FC5005D029A /* PanelliniesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanelliniesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A0DE452EBF936B00F0B073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		29DC463F2ED91541009D9D5F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +86,6 @@
 		29938FB82EBE2FC3005D029A = {
 			isa = PBXGroup;
 			children = (
-				29DC463F2ED91541009D9D5F /* .gitignore */,
 				29938FC32EBE2FC3005D029A /* PanelliniesApp */,
 				29938FD12EBE2FC5005D029A /* PanelliniesAppTests */,
 				29938FDB2EBE2FC5005D029A /* PanelliniesAppUITests */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29DC46402ED9154C009D9D5F /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,37 @@
-# Firebase
+### — Firebase — ###
 GoogleService-Info.plist
 
-# Xcode
+### — Xcode — ###
 .DS_Store
 build/
 DerivedData/
 xcuserdata/
 xcshareddata/WorkspaceSettings.xcsettings
+
+### — Swift Package Manager — ###
+.swiftpm/
+.build/
+
+### — CocoaPods (αν το βάλεις ποτέ) — ###
+Pods/
+Podfile.lock
+
+### — Carthage (optional future) — ###
+Carthage/Build/
+
+### — Fastlane (αν το προσθέσεις στην πτυχιακή) — ###
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+### — General System Files — ###
+*.swp
+*.lock
+*.tmp
+*.orig
+*.log
+
+### — Simulator files — ###
+*.xccheckout
+*.xcscmblueprint
