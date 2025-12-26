@@ -48,6 +48,9 @@ struct WelcomeView: View {
                 .position(x: geo.size.width/2, y: geo.size.height * 0.6)
             }
             .frame(width: geo.size.width, height: geo.size.height)
+            .fullScreenCover(isPresented: $showLoginView) {
+                LoginView()
+            }
             .fullScreenCover(isPresented: $showSignUpView) {
                 RegisterView()
             }
